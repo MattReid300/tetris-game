@@ -1,0 +1,57 @@
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(80, 80, 80);
+}
+
+.grid div {
+    height: 20px;
+    width: 20px
+}
+
+.tetromino {
+    background-color: darkorange;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(80, 80, 80);
+    margin-left: 30px;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#global {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url('https://cdn.suwalls.com/wallpapers/abstract/polygon-texture-26717-2560x1600.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#start-button {
+    width:150px;
+    height:50px;
+    font-family: Verdana;
+    margin-right: 20px;
+}
